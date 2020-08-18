@@ -1,0 +1,28 @@
+{
+  "name": "crudgamesservidor",
+  "version": "1.0.0",
+  "description": "backend para crud de videojuegos favoritos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PipePuentes95/curd-games-backend.git"
+  },
+  "author": "David Felipe Puentes Farfan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PipePuentes95/curd-games-backend/issues"
+  },
+  "homepage": "https://github.com/PipePuentes95/curd-games-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  }
+}
